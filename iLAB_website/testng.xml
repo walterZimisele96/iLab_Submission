@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Testing iLAB website"  parallel="tests" thread-count="2" verbose="1">
+
+	<test name="Testing iLat">
+		<parameter name="Browser" value="Chrome">
+			<classes>
+				<class name="testCases.Driver">
+				</class>
+			</classes>
+		</parameter>
+	</test>
+</suite>
